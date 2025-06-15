@@ -25,7 +25,7 @@ class LojaPage extends StatelessWidget {
             const Text("Saldo: 245 moedas | XP: 1300", style: TextStyle(fontSize: 16)),
             const SizedBox(height: 12),
             _itemLoja("Chapéu Vortex Preto", 'assets/witch-hat_2691163.png', "50"),
-            _itemLoja("Laço Vermelho", 'assets/pencil_9268137.png', "35"),
+            _itemLoja("Lápis", 'assets/pencil_9268137.png', "35"),
             _itemLoja("Fundo China", 'assets/torii-gate_619044.png', "60"),
             _itemLoja("Chapéu Graduação", 'assets/graduate_2141459.png', "55"),
             _itemLoja("Fundo de Praia", 'assets/beach_3719908.png', "55"),
