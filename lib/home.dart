@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projeto_ux_ui/login.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -21,7 +22,12 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('LearnHero'),
         actions: [
-          IconButton(onPressed: () {}, icon: const Icon(Icons.logout)),
+          IconButton(onPressed: () {
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(builder: (_) => const LoginPage()),
+            );
+          }, icon: const Icon(Icons.logout)),
         ],
       ),
       body: Padding(
