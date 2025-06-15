@@ -1,0 +1,38 @@
+name: projeto_ux_ui
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/avataaars (1).png
+    - assets/avataaars (2).png
+    - assets/avataaars (3).png
+    - assets/avataaars (4).png
+    - assets/avataaars (5).png
+    - assets/avataaars (6).png
+    - assets/avataaars.png
+    - assets/beach_3719908.png
+    - assets/detective_1320570.png
+    - assets/emoji-perfil-removebg-preview.png
+    - assets/emoji-perfil.png
+    - assets/girl_2383061.png
+    - assets/graduate_2141459.png
+    - assets/logo-removebg-preview.png
+    - assets/logo.png
+    - assets/pencil_9268137.png
+    - assets/torii-gate_619044.png
+    - assets/witch-hat_2691163.png
