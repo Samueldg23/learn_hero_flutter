@@ -38,7 +38,7 @@ class RegisterPage extends StatelessWidget {
             const SizedBox(height: 24),
             ElevatedButton(
               onPressed: () {
-                Navigator.pop(context); // volta para o login
+                Navigator.pop(context);
               },
               style: ElevatedButton.styleFrom(minimumSize: Size.fromHeight(50)),
               child: const Text('Registre-se'),

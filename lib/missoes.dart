@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-
 class MissoesPage extends StatelessWidget {
   const MissoesPage({super.key});
-
   Widget _missao(String titulo, String progresso, String botao) {
     return Card(
       margin: const EdgeInsets.symmetric(vertical: 8),
@@ -16,7 +14,6 @@ class MissoesPage extends StatelessWidget {
       ),
     );
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

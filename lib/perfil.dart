@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class PerfilPage extends StatelessWidget {
   const PerfilPage({super.key});
 
@@ -15,14 +14,12 @@ class PerfilPage extends StatelessWidget {
       ),
     );
   }
-
   Widget _conquista(String titulo) {
     return ListTile(
       leading: const Icon(Icons.check_circle_outline),
       title: Text(titulo),
     );
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

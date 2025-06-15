@@ -9,17 +9,14 @@ class HomeNavigation extends StatefulWidget {
   @override
   State<HomeNavigation> createState() => _HomeNavigationState();
 }
-
 class _HomeNavigationState extends State<HomeNavigation> {
   int _index = 0;
-
   final List<Widget> _pages = const [
     HomePage(),
     MissoesPage(),
     LojaPage(),
     PerfilPage()
   ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

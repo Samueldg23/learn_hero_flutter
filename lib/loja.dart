@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-
 class LojaPage extends StatelessWidget {
   const LojaPage({super.key});
-
   Widget _itemLoja(String nome, String imagem, String preco) {
     return Card(
       child: ListTile(
@@ -13,7 +11,6 @@ class LojaPage extends StatelessWidget {
       ),
     );
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
